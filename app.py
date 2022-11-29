@@ -5,7 +5,8 @@ import streamlit as st
 from tensorflow import keras
 # from keras.models import model_from_json
 from keras.models import load_model
-from keras.preprocessing.image import img_to_array
+from keras_preprocessing.image import img_to_array
+#from keras.preprocessing.image import img_to_array
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 
 # load model
